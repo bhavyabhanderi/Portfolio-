@@ -33,18 +33,15 @@ export default function AboutSection() {
             className="flex flex-col items-center lg:col-span-5"
           >
             <div className="relative mb-6">
-              <div className="w-full max-w-[320px] sm:max-w-[380px] aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-gray-200 mx-auto">
+              <div className="w-full max-w-[320px] sm:max-w-[380px] aspect-[4/5] rounded-[2rem] overflow-hidden shadow-lg border border-gray-200 mx-auto">
                 <img 
-                  src="https://drive.google.com/uc?export=view&id=1CmNNmxfLn8DzUcjiMwKbDCBVWpGQLzyB" 
+                  src="/profile.jpg" 
                   alt="Bhavya Bhanderi" 
                   className="w-full h-full object-cover object-top"
                 />
               </div>
               {/* Open to Work badge */}
-              {/* <div className="absolute -bottom-3 right-4 bg-white rounded-full shadow-md border border-gray-200 px-4 py-2 flex items-center gap-2">
-                <span className="w-2.5 h-2.5 bg-green-500 rounded-full animate-pulse" />
-                <span className="text-sm font-semibold text-gray-800">Open to Work</span>
-              </div> */}
+              
             </div>
 
             {/* Social Icons + Location */}

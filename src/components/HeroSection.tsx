@@ -27,11 +27,11 @@ export default function HeroSection() {
             <span className="text-sm font-medium text-gray-700">Available for new opportunities</span>
           </div>
           
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight">
-            Hi 👋 <br /> I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-accent">Bhavya Bhanderi</span>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+            Hi 👋 <br /> I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-accent whitespace-nowrap">Bhavya Bhanderi</span>
           </h1>
 
-          <div className="text-2xl md:text-3xl font-semibold text-gray-600 h-16">
+          <div className="text-xl md:text-2xl lg:text-3xl font-semibold text-gray-600 h-16">
             <TypeAnimation
               sequence={[
                 'Full Stack Developer',

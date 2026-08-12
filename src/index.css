@@ -19,6 +19,7 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    font-size: 14px; /* Scales down all rem-based sizes (padding, text, margins) proportionally */
   }
   body {
     @apply bg-background text-gray-900 overflow-x-hidden;
