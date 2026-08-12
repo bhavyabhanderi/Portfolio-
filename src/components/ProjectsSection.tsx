@@ -37,7 +37,7 @@ export default function ProjectsSection() {
   );
 
   return (
-    <section id="projects" className="py-24 bg-white/60 relative">
+    <section id="projects" className="py-16 md:py-24 bg-white/60 relative">
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -45,7 +45,7 @@ export default function ProjectsSection() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-bold mb-4">Featured <span className="text-primary">Projects</span></h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured <span className="text-primary">Projects</span></h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full" />
         </motion.div>
 

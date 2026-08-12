@@ -12,7 +12,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa6';
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-24 relative">
+    <section id="about" className="py-16 md:py-24 relative">
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -20,7 +20,7 @@ export default function AboutSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold mb-4">About <span className="text-primary">Me</span></h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">About <span className="text-primary">Me</span></h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full" />
         </motion.div>
 

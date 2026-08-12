@@ -3,7 +3,7 @@ import { GraduationCap, Award } from 'lucide-react';
 
 export default function EducationSection() {
   return (
-    <section className="py-24 bg-white/60 relative">
+    <section className="py-16 md:py-24 bg-white/60 relative">
       <div className="container mx-auto px-6 max-w-6xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -11,7 +11,7 @@ export default function EducationSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold mb-4">Education & <span className="text-primary">Achievements</span></h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Education & <span className="text-primary">Achievements</span></h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full" />
         </motion.div>
 

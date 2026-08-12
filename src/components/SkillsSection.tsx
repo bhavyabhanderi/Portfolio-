@@ -64,7 +64,7 @@ const SKILL_CATEGORIES = [
 
 export default function SkillsSection() {
   return (
-    <section id="skills" className="py-24 relative">
+    <section id="skills" className="py-16 md:py-24 relative">
       <div className="absolute top-[20%] right-0 w-96 h-96 bg-accent/5 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="container mx-auto px-6 relative z-10">
@@ -74,7 +74,7 @@ export default function SkillsSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold mb-4">Technical <span className="text-primary">Skills</span></h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Technical <span className="text-primary">Skills</span></h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full" />
         </motion.div>
 

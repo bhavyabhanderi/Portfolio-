@@ -27,7 +27,7 @@ const EXPERIENCES = [
 
 export default function ExperienceSection() {
   return (
-    <section id="experience" className="py-24 relative overflow-hidden bg-slate-50/50">
+    <section id="experience" className="py-16 md:py-24 relative overflow-hidden bg-slate-50/50">
       <div className="container mx-auto px-6 max-w-4xl relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -35,7 +35,7 @@ export default function ExperienceSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold mb-4">My <span className="text-primary">Experience</span></h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">My <span className="text-primary">Experience</span></h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full" />
         </motion.div>
 

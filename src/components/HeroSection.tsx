@@ -8,8 +8,8 @@ export default function HeroSection() {
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background gradients */}
       <div className="absolute inset-0 w-full h-full bg-background z-0">
-        <div className="absolute top-[20%] left-[10%] w-[400px] h-[400px] bg-primary/20 rounded-full blur-[120px] mix-blend-screen animate-float" />
-        <div className="absolute bottom-[20%] right-[10%] w-[300px] h-[300px] bg-secondary/20 rounded-full blur-[120px] mix-blend-screen animate-float" style={{ animationDelay: '2s' }} />
+        <div className="absolute top-[20%] left-[10%] w-[250px] md:w-[400px] h-[250px] md:h-[400px] bg-primary/20 rounded-full blur-[120px] mix-blend-screen animate-float" />
+        <div className="absolute bottom-[20%] right-[10%] w-[200px] md:w-[300px] h-[200px] md:h-[300px] bg-secondary/20 rounded-full blur-[120px] mix-blend-screen animate-float" style={{ animationDelay: '2s' }} />
       </div>
 
       <div className="container mx-auto px-6 relative z-10 grid md:grid-cols-2 gap-12 items-center">
@@ -27,7 +27,7 @@ export default function HeroSection() {
             <span className="text-sm font-medium text-gray-700">Available for new opportunities</span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight">
             Hi 👋 <br /> I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-accent">Bhavya Bhanderi</span>
           </h1>
 

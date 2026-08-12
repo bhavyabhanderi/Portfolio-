@@ -3,7 +3,7 @@ import { ExternalLink, CheckCircle2, Server, Layout, Database } from 'lucide-rea
 
 export default function HighlightProjectSection() {
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section className="py-16 md:py-24 relative overflow-hidden">
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -18,7 +18,7 @@ export default function HighlightProjectSection() {
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
                 Featured Project
               </div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">PrepAI</h2>
+              <h2 className="text-3xl md:text-5xl font-bold mb-6">PrepAI</h2>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 An advanced AI-powered platform for career preparation. It analyzes resumes, generates optimized cover letters, and provides mock interviews with real-time feedback using LLMs.
               </p>
