@@ -35,7 +35,7 @@ export default function AboutSection() {
             <div className="relative mb-6">
               <div className="w-[320px] sm:w-[380px] aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-gray-200">
                 <img 
-                  src="/image.png" 
+                  src="https://drive.google.com/file/d/1CmNNmxfLn8DzUcjiMwKbDCBVWpGQLzyB/view?usp=drive_link" 
                   alt="Bhavya Bhanderi" 
                   className="w-full h-full object-cover object-top"
                 />
