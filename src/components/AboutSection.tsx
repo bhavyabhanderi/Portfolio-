@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
-import { MapPin, Mail, Database, Layout, Server, Sparkles } from 'lucide-react';
+import { MapPin, Mail } from 'lucide-react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa6';
 
 // const HIGHLIGHTS = [
